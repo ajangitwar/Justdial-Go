@@ -1,0 +1,35 @@
+<html>
+<head>
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBsLu7q83lPbs5vninrWcI3RyaBhXmcLN0",
+    authDomain: "project1-a3daa.firebaseapp.com",
+    databaseURL: "https://project1-a3daa.firebaseio.com",
+    projectId: "project1-a3daa",
+    storageBucket: "project1-a3daa.appspot.com",
+    messagingSenderId: "583348902405"
+  };
+  firebase.initializeApp(config);
+</script></head>
+<body> 
+
+<lable>Name</lable> <input type="text" id="name" >
+<br>
+<lable>Last name</lable> <input type="text" id="lastname">
+<br>
+<lable>Mobile</lable> <input type="number" id="mob">
+<br>
+<br> <input type="Submit" value="submit" onclick="save();"/>
+<input type="Submit" value="update" onclick="submit"/>
+<input type="Submit" value="delete" onclick="submit"/>
+<script>
+var user=document.getElementById("name");
+var databaseRef=firebase.databaseRef().ref("name")
+	function save(){
+		
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+		background-image:url("pictures/cool.jpg");
+}
+input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 15px 70px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	align:center;
+}
+h2{
+	text-size:30px;
+	text-align:center;
+	font-family:monospace;
+}
+.btn{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+	margin:10px 185px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  .log-form {
+	  
+  width: 40%;
+  height:60%;
+  min-width: 320px;
+  max-width: 475px;
+  background-image:url("pictures/cool.jpg");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+  
+  box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+}
+.form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+  }
+  .card-4{
+	  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+	  }
